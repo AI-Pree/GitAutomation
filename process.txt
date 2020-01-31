@@ -1,0 +1,25 @@
+
+Simple Version:
+Command line
+-use argparse to create command line program (done)
+-pass the folder name through argument (done)
+
+Initialzing a git repo for the projects
+-use comman git init on that directory (done)
+-checking all the folders in the directory (done)
+-check if the folder has .git folder in it or not (done)
+-if the folder doesnt have .git then create run command git init for that directory (done)
+
+Creating github repo for the project
+-use github API(done)
+-connect to the git hub API using the token (done)
+-to create the repo name in gihub under the same directory name(done)
+-upload all the files in the exisiting project to the designated git hub repo(command line , selenium or gihubAPI)(done)
+
+Advanced Version:
+- check if the git repo exists in the github
+- delete the repository in the github
+- store the details of repo creating in a log file
+- make the repo private or public based on the folder name
+- choose to authenticate with username and password
+- creating a blob object using the github api and adding files in it with commits
