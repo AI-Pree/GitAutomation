@@ -56,7 +56,7 @@ class requestHandler():
             self.logger.info("successfully created repo %s....", args[0])
         else:
             self.logger.warning("Repo already exists for %s....", args[0])
-        self.push_project_github("preeyashp",args[0],args[1])
+        self.push_project_github("username",args[0],args[1])
         self.logger.info(args[1]+ " checking.....")
         self.logger.info("Project pushed to the repository for {name}...".format(name = args[0]))
 
