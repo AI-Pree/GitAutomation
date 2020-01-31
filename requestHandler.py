@@ -37,8 +37,6 @@ class requestHandler():
             subprocess.run(["git", "commit", "-m", "'Initial commit'"])
             subprocess.run(["git", "push", "-u", "origin", "master"])
             self.logger.info(os.getcwd())
-        #os.system("git remote add origin https://github.com/"+username+"/"+reponame+".git")
-        #os.system("git push -u origin master")
         
     #create a new repo for the projects
     def create_new_repo(self,*args):
