@@ -23,3 +23,4 @@ Advanced Version:
 - make the repo private or public based on the folder name
 - choose to authenticate with username and password
 - creating a blob object using the github api and adding files in it with commits
+- automatically sign in the command line for git hub
