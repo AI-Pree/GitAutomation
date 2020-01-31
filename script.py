@@ -35,10 +35,9 @@ def run(args):
             if not any(folder.startswith('.git') for folder in os.listdir(dirs)):
                 initializeGit(dirs)
                 logger.info("git initialised")
-                
+                req.create_new_repo(os.path.basename(dirs),os.path.abspath(dirs))
             else:
                 logger.info("git already initialised for %s", dirs)
-            req.create_new_repo(os.path.basename(dirs),os.path.abspath(dirs))
     else:
         logger.error("Not found")
 
