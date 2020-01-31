@@ -9,7 +9,7 @@ import requestHandler
 
 
 logger = logging.getLogger(__name__)
-req = requestHandler.requestHandler(api_token = "69a84d0c58f832299f911644d7cc2f3386884075")
+req = requestHandler.requestHandler(api_token = "api_token")
 
 #setting up the logging system 
 def setupLogging(default_path = "logging.json", default_level = logging.INFO):
